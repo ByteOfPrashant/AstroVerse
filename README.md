@@ -143,8 +143,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **The open-source community** for the excellent libraries used in this project
 
 ---
-## Screenshots!
-![android](https://github.com/user-attachments/assets/61da37b3-1c83-4d81-a67a-31ec2fc5638a)
+## Screenshot!
+![apod_ios](https://github.com/user-attachments/assets/b7b798f0-99f5-43ee-91cc-666786066b30)
 
 
 **Built with ❤️ using Kotlin Multiplatform**

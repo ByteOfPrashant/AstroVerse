@@ -144,6 +144,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 ## Screenshots!
-[android.png](../android.png)
+![android](https://github.com/user-attachments/assets/61da37b3-1c83-4d81-a67a-31ec2fc5638a)
+
 
 **Built with ❤️ using Kotlin Multiplatform**

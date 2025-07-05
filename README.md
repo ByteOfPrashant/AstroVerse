@@ -1,17 +1,17 @@
-# AstroVerse 🌌
+# AstroVerse
 
 AstroVerse is a Kotlin Multiplatform (KMP) application that brings NASA's Astronomy Picture of the
 Day (APOD) to your fingertips. Built with modern Android and iOS architecture, this app showcases
 stunning astronomical images and educational content from NASA's vast collection.
 
-## Features ✨
+## Features
 
-- 📸 **Daily Astronomy Pictures**: Browse NASA's Astronomy Picture of the Day
-- 📱 **Cross-Platform**: Native Android and iOS applications from shared codebase
-- 🎨 **Modern UI**: Beautiful Compose Multiplatform interface
-- 🌐 **Offline-Ready**: Clean architecture with proper error handling
+-  **Daily Astronomy Pictures**: Browse NASA's Astronomy Picture of the Day
+-  **Cross-Platform**: Native Android and iOS applications from shared codebase
+-  **Modern UI**: Beautiful Compose Multiplatform interface
+-  **Offline-Ready**: Clean architecture with proper error handling
 
-## Architecture 🏗️
+## Architecture
 
 The app follows Clean Architecture principles with clear separation of concerns:
 
@@ -28,11 +28,11 @@ The app follows Clean Architecture principles with clear separation of concerns:
 
 ### Layer Breakdown:
 
-- **📱 Presentation Layer** (`composeApp/`): Compose UI, ViewModels, and user interactions
-- **🎯 Domain Layer** (`domain/`): Business logic, use cases, and domain models
-- **🔌 Data Layer** (`data/`): Repository implementations, API services, and data sources
+- ** Presentation Layer** (`composeApp/`): Compose UI, ViewModels, and user interactions
+- ** Domain Layer** (`domain/`): Business logic, use cases, and domain models
+- ** Data Layer** (`data/`): Repository implementations, API services, and data sources
 
-## Third-Party Libraries 📚
+## Third-Party Libraries 
 
 ### Networking
 
@@ -62,7 +62,7 @@ The app follows Clean Architecture principles with clear separation of concerns:
 - **Androidx Lifecycle** `v2.9.1`: ViewModel and lifecycle management
 - **Kotlinx Serialization**: JSON parsing and serialization
 
-## Project Structure 📁
+## Project Structure
 
 ```
 AstroVerse/
@@ -86,7 +86,7 @@ AstroVerse/
 └── iosApp/               # iOS application entry point
 ```
 
-## Setup Instructions 🚀
+## Setup Instructions
 
 ### Prerequisites
 
@@ -101,7 +101,7 @@ git clone https://github.com/your-username/AstroVerse.git
 cd AstroVerse
 ```
 
-### 2. 🔑 Configure NASA API Key
+### 2.  Configure NASA API Key
 
 **Important**: You need to replace the API key in the ApiService:
 
@@ -124,7 +124,7 @@ cd AstroVerse
 
 Open `iosApp/iosApp.xcodeproj` in Xcode and run the project.
 
-## String Resources 🌐
+## String Resources
 
 The app uses Compose Multiplatform's string resources for internationalization. All strings are
 centralized in:
@@ -132,11 +132,11 @@ centralized in:
 - **Location**: `composeApp/src/commonMain/composeResources/values/strings.xml`
 - **Usage**: Access via `Res.string.resource_name` in Compose
 
-## License 📄
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments 🙏
+## Acknowledgments
 
 - **NASA** for providing the amazing APOD API
 - **JetBrains** for Kotlin Multiplatform and Compose Multiplatform
